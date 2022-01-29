@@ -1,0 +1,22 @@
+.place {
+  min-width: 288px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
+    row-gap: 48px;
+    padding-top: 73px;
+  }
+} 
+
+@media screen and (min-width: 1024px) {
+  .place {
+    padding-top: 80px;
+  }
+} 
