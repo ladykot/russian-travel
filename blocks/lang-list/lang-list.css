@@ -13,3 +13,9 @@
     top: 46px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .lang-list {
+    right: 48px;
+  }
+}

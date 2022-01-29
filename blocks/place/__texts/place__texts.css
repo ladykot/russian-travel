@@ -4,3 +4,9 @@
     row-gap: 25px;
     padding: 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .place__texts {
+        row-gap: 26px;
+    }
+}

@@ -1,7 +1,4 @@
 .header__logo {
-  position: absolute;
-  left: 16px;
-  top: 16px;
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 142px;
@@ -10,8 +7,6 @@
 
 @media screen and (min-width: 768px) {
   .header__logo {
-    left: 24px;
-    top: 28px;
     min-width: 176px;
     min-height: 52px;
   }

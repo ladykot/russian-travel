@@ -3,13 +3,19 @@
   display: flex;
   flex-direction: column;
   padding-top: 64px;
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+.place:first-child {
+  padding-top: 0;
 }
 
 @media screen and (min-width: 768px) {
   .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 32px;
+    grid-template-columns: 340px auto;
+    column-gap: 28px;
     row-gap: 48px;
     padding-top: 73px;
   }
@@ -17,6 +23,15 @@
 
 @media screen and (min-width: 1024px) {
   .place {
+    grid-template-columns: 440px auto;
+    column-gap: 32px;
     padding-top: 80px;
   }
-} 
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    grid-template-columns: 460px auto;
+    column-gap: 40px;
+  }
+}
