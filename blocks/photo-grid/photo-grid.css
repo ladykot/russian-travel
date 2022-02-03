@@ -3,6 +3,7 @@
   max-width: 1184px;
   margin: 0 auto;
   display: grid;
+  box-sizing: border-box;
   grid-template-columns: 1fr;
   padding: 64px 16px 0px 16px;
   gap: 16px;
