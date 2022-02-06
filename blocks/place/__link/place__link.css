@@ -6,4 +6,5 @@
     text-decoration-line: underline;
     color: white;
     padding-top: 12px;
+    width: min-content;
 }
