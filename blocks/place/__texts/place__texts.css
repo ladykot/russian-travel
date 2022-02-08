@@ -6,9 +6,14 @@
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .place__texts {
         padding: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place__texts {
         row-gap: 26px;
     }
 }
